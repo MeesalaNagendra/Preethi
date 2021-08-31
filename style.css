@@ -17,19 +17,13 @@ header
     margin: 15px;
     font-size: 25px;
 }
-table
-{
-    width: 93%;
-    border-collapse: collapse;
-    border: 1px solid black;
-    height: 200px;
-}
+
 .side-bar
 {
     border: 2px solid black;
     position: absolute;
     left: 13px;
-    height: 410px;
+    height: 500px;
     border-bottom: none;
 }
 .btns
@@ -56,7 +50,7 @@ table
 {
     position: absolute;
     left: 580px;
-    bottom: 60px;
+    bottom: 100px;
 }
 .upcoming
 {
@@ -64,4 +58,24 @@ table
     height: 200px;
     width: 93%;
     
+}
+table
+{
+    border: 1px solid black;  
+    border-collapse: collapse; 
+    width: 200%;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+th, td {  
+    border: 1px solid black;  
+    border-collapse: collapse;  
+}  
+th, td {  
+    padding: 10px;  
+}  
+.side-bar-btn
+{
+    position: absolute;
+    bottom: 415px;
 }
